@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import Genres from '../components/genres';
+import Navbar from '../components/navbar';
 
 export default function GenresPage() {
   return (
@@ -12,6 +13,7 @@ export default function GenresPage() {
           </div>
         </div>
       </section>
+      <Navbar />
       <div className="bg-light">
         <Genres />
       </div>
